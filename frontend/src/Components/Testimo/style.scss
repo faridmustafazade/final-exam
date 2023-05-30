@@ -1,0 +1,66 @@
+.full-test{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg");
+    background-position: center;
+  background-size: cover;
+    .test{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        .test-up{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .line{
+                height: 30px;
+                width: 4px;
+                background-color: #FD784F;
+            }
+            .cli-p{
+                color: #FFFFFF;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            .our-p{
+                color: #b0b1b3;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+        .test-down{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 70px;
+            text-align: center;
+            .lorem{
+                width: 50%;
+                color: #FFFFFF;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 36px;
+            }
+            .test-img{
+                img{
+                    border-radius: 50%;
+                }
+                .natalie{
+                    line-height: 21px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #FD784F;
+                }
+                .client{
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #FFFFFF;
+                    line-height: 19.5px;
+    
+                }
+            }
+        }
+    }
+}

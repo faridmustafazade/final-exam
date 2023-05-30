@@ -1,0 +1,124 @@
+.full-feature {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .feature {
+    .side-up {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .line {
+        height: 30px;
+        width: 4px;
+        background-color: #fd784f;
+      }
+      .fea-p {
+        color: #1e2c4e;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .see-p {
+        color: #b0b1b3;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .buttons {
+      display: flex;
+    }
+    .side-down {
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      .feas {
+        width: 30%;
+        .fea-card {
+          background-color: #edeff4;
+          width: 84%;
+          .fea-img1 {
+            position: relative;
+            .feaa {
+              position: absolute;
+              top: 20px;
+              background-color: #fd784f;
+              color: white;
+              padding: 10px 20px;
+            }
+          }
+          .name {
+            margin-left: 10px;
+          }
+          .about {
+            margin-left: 10px;
+          }
+          .count {
+            margin-left: 10px;
+
+            width: 100%;
+            gap: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            .icon1 {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              .icons1 {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+              }
+            }
+          }
+          .tags {
+            margin-top: 10px;
+            margin-left: 10px;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            p {
+              width: 30%;
+              background-color: #fd784f;
+              color: white;
+              text-align: center;
+            }
+          }
+        }
+        .card-footer {
+          margin-top: 10px;
+          width: 84%;
+          background-color: #1e2c4e;
+          color: white;
+          display: flex;
+          align-items: center;
+          padding-left: 50px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          gap: 30px;
+          img {
+            width: 30px;
+          }
+          .foot-texts {
+            display: flex;
+            flex-direction: column;
+            .for {
+              font-size: 12px;
+            }
+            .price {
+              font-size: 24px;
+            }
+          }
+        }
+        .buttons2 {
+          width: 84%;
+          padding-top: 10px;
+          display: flex;
+          gap: 40px;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

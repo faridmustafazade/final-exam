@@ -1,0 +1,58 @@
+.full-city {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/world.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  .city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    .city-up {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .line {
+        height: 30px;
+        width: 4px;
+        background-color: #fd784f;
+      }
+      .fea-p {
+        color: #1e2c4e;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .see-p {
+        color: #b0b1b3;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .side-down {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      .card {
+        justify-content: center;
+        display: flex;
+        position: relative;
+        img {
+          width: 150px;
+        }
+        .pos {
+          background-color: #fd784f;
+          padding: 5px 20px;
+          bottom: 0;
+          position: absolute;
+          font-weight: 600;
+          font-size: 14px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
